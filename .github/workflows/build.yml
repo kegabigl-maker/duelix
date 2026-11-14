@@ -26,7 +26,7 @@ jobs:
           accept-android-sdk-licenses: true
 
       - name: Extract project
-        run: unzip DUELIX_2_0_Android_Project.zip -d source
+        run: unzip DUELIX_2_0_Android_Project_transfer_2026-11-14_203123.zip -d source
 
       - name: Build APK
         working-directory: source/DUELIX_2_0_Android
